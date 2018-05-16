@@ -1,9 +1,61 @@
 Quiz 7 Learning Objectives:
  
-Describe the process by which DHCP assigns an IP address to a new client on a network.
-Simulate the operation of a NAT-enabled router, assuming a host on a local network wants to communicate with a server outside of the network.
-Describe the benefits and drawbacks of using NAT.
-Describe how tunneling allows inter-operability between IPv4 and IPv6 networks.
-Compare and contrast IPv4 and IPv6.
-Given a network architecture that uses SDN, fill in the flow tables for every router to direct traffic to the correct location.
-Describe the pros and cons of storing more network information on each router.
+Q:  Describe the process by which DHCP assigns an IP address to a new client on a network.
+
+| Arriving |                                       | DHCP Server |
+| Client   |                                       | 223.1.2.5   |
+|          | DHCP Discover                         |             |
+| -->      | src: 0.0.0.0, dest: 255.255.255.255   | -->         |
+|          | yiaddr: 0.0.0.0, transaction ID: 654  |             |
+
+|          | DHCP Offer                            |             |
+| <--      | src: 223.1.2.5, dest: 255.255.255.255 | <--         |
+|          | yaddr: 223.1.2.4                      |             |
+|          | lifetime: 3600 secs                   |             |
+
+|          | DHCP Request                          |             |
+| -->      | src: 0.0.0.0, dest: 255.255.255.255   | -->         |
+|          | yaddr: 223.1.2.4                      |             |
+|          | lifetime: 3600 secs                   |             |
+
+|          | DHCP Ack                              |             |
+| <--      | src: 223.1.2.5, dest: 255.255.255.255 | <--         |
+|          | yaddr: 223.1.2.4                      |             |
+|          | lifetime: 3600 secs                   |             |
+
+
+
+Q:  Simulate the operation of a NAT-enabled router, assuming a host on a 
+    local network wants to communicate with a server outside of the network.
+
+Q:  Describe the benefits and drawbacks of using NAT.
+
+Benefits: 
+    Additional layer of security - hide original source/dest
+    Use your own addressing system
+    Use less IP's 
+Drawbacks:
+    Takes processing power and memory resources
+    May delay IPv4 comms
+    Loose end-device to end-device tracability
+
+
+Q:  Describe how tunneling allows inter-operability between IPv4 and IPv6 networks.
+
+    Tunneling encapsulates ip datagrams to allow compatibility with routers of
+    operating different versions of IP. 
+
+Q:  Compare and contrast IPv4 and IPv6.
+    
+    | IPv4             | IPv6        |
+    ----------------------------------
+    | 32 bits          | 128 bits    |
+    | more complicated | simpler     |
+    | hex              | dot-decimal |
+    
+Q:  Given a network architecture that uses SDN, fill in the flow tables for every router to direct traffic to the correct location.
+    
+    Lecture 30, last couple slides
+
+Q:  Describe the pros and cons of storing more network information on each router.
+
