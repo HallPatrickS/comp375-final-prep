@@ -1,0 +1,8 @@
+Post-Quiz 9 Learning Objectives:
+ 
+Describe the two properties of good cryptography proposed by Claude Shannon.
+Describe the process by which shared, private keys may be transmitted safely.
+Using cryptographic primitives such as symmetric key encryption, public key encryption (e.g. RSA), and secure hashes, design a system that meets one or more of the following needs: confidentiality, message integrity, and authentication.
+Explain the necessity of nonces in cryptographic systems.
+Given a VPN, identify all of the security associations needed by the VPN and briefly describe what is contained in each security association.
+ 

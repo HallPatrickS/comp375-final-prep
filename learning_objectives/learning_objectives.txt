@@ -1,0 +1,43 @@
+Below is a list of learning objectives from after midterm 2. 
+I will go back through the learning objectives for midterms 1 and 2 
+and decide which objectives may still be tested by the final exam. 
+I'll update the list with those objectives sometime tomorrow.
+ 
+Quiz 7 Learning Objectives:
+ 
+Describe the process by which DHCP assigns an IP address to a new client on a network.
+Simulate the operation of a NAT-enabled router, assuming a host on a local network wants to communicate with a server outside of the network.
+Describe the benefits and drawbacks of using NAT.
+Describe how tunneling allows inter-operability between IPv4 and IPv6 networks.
+Compare and contrast IPv4 and IPv6.
+Given a network architecture that uses SDN, fill in the flow tables for every router to direct traffic to the correct location.
+Describe the pros and cons of storing more network information on each router.
+ 
+Quiz 8 Learning Objectives:
+ 
+Given a network, use Dijkstra's algorithm to compute the routing and forwarding tables for every router in the network.
+Given a network, use the Distance-Vector algorithm to compute the routing and forwarding tables for every router in the network.
+Given a network, determine whether a link going down would cause a routing loop when using Distance-Vector.
+Compare and contrast Link-State and Distance-Vector routing algorithms.
+Explain how route poisoning can help eliminate routing loops.
+Compare and contrast hot potato and cold potato routing.
+Given a network with autonomous systems (ASes), determine the BGP route from a given AS to a destination prefix.
+ 
+Quiz 9 Learning Objectives:
+ 
+Given a network with autonomous systems (ASes), determine the BGP route from a given AS to a destination prefix.
+Describe how AS administrators determine whether to advertise a route with BGP.
+Compare and contrast the network and link layers.
+Describe the three major functions of the link layer.
+Given a media access protocol (e.g. TDMA), determine which of the four ideal protocol properties it exhibits.
+Given a network and a pair of hosts that want to communicate, explain the steps needs to get the data from the sender to the receiver.
+ 
+Post-Quiz 9 Learning Objectives:
+ 
+Describe the two properties of good cryptography proposed by Claude Shannon.
+Describe the process by which shared, private keys may be transmitted safely.
+Using cryptographic primitives such as symmetric key encryption, public key encryption (e.g. RSA), and secure hashes, design a system that meets one or more of the following needs: confidentiality, message integrity, and authentication.
+Explain the necessity of nonces in cryptographic systems.
+Given a VPN, identify all of the security associations needed by the VPN and briefly describe what is contained in each security association.
+ 
+P.S. Sorry, but no more extra credit opportunities.

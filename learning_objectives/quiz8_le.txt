@@ -1,0 +1,10 @@
+Quiz 8 Learning Objectives:
+ 
+Given a network, use Dijkstra's algorithm to compute the routing and forwarding tables for every router in the network.
+Given a network, use the Distance-Vector algorithm to compute the routing and forwarding tables for every router in the network.
+Given a network, determine whether a link going down would cause a routing loop when using Distance-Vector.
+Compare and contrast Link-State and Distance-Vector routing algorithms.
+Explain how route poisoning can help eliminate routing loops.
+Compare and contrast hot potato and cold potato routing.
+Given a network with autonomous systems (ASes), determine the BGP route from a given AS to a destination prefix.
+ 

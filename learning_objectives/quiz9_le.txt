@@ -1,0 +1,9 @@
+Quiz 9 Learning Objectives:
+ 
+Given a network with autonomous systems (ASes), determine the BGP route from a given AS to a destination prefix.
+Describe how AS administrators determine whether to advertise a route with BGP.
+Compare and contrast the network and link layers.
+Describe the three major functions of the link layer.
+Given a media access protocol (e.g. TDMA), determine which of the four ideal protocol properties it exhibits.
+Given a network and a pair of hosts that want to communicate, explain the steps needs to get the data from the sender to the receiver.
+ 

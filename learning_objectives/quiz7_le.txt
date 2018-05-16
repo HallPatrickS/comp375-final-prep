@@ -1,0 +1,9 @@
+Quiz 7 Learning Objectives:
+ 
+Describe the process by which DHCP assigns an IP address to a new client on a network.
+Simulate the operation of a NAT-enabled router, assuming a host on a local network wants to communicate with a server outside of the network.
+Describe the benefits and drawbacks of using NAT.
+Describe how tunneling allows inter-operability between IPv4 and IPv6 networks.
+Compare and contrast IPv4 and IPv6.
+Given a network architecture that uses SDN, fill in the flow tables for every router to direct traffic to the correct location.
+Describe the pros and cons of storing more network information on each router.
